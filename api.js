@@ -7,7 +7,7 @@
         });
         api.openFrame({
             name: 'main',
-            url: 'https://www.5xe88.com',
+            url: 'https://www.5xe88.com?5614',
             bounces: false,
             rect: {
                 w: 'auto',
@@ -38,7 +38,7 @@
     };
 
 	function onBrowserStateChange(ret){
-    	if(0 == ret.state){//¿ªÊ¼¼ÓÔØ
+    	if(0 == ret.state){//Â¿ÂªÃŠÂ¼Â¼Ã“Ã”Ã˜
 			if(!launchRemoved){
 				launchRemoved = true;
 				removeLaunch();
